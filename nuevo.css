@@ -1,0 +1,22 @@
+/* Encabezado nivel 1: borde inferior de 2px, sólido y azul (#00F) */
+#encabezado-1 {
+    border-bottom: 2px solid #00F;
+}
+
+/* Encabezado nivel 2: borde completo de 2px, sólido y gris (#AAA) */
+.encabezado-2 {
+    border: 2px solid #AAA;
+}
+
+/* Lista con los datos del libro: borde superior e inferior de 4px, punteado y rojo (#F00) */
+.datos-libro {
+    border-top: 4px dotted #F00;
+    border-bottom: 4px dotted #F00;
+    padding: 5px;
+}
+
+/* Lista con el contenido del libro: borde completo de 2px, con guiones y verde (#0F0) */
+.contenido-libro {
+    border: 2px dashed #0F0;
+    padding: 5px;
+}
